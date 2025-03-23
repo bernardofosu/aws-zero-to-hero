@@ -13,7 +13,7 @@ If someone else has the same CIDR block (`192.168.0.0/16`) assigned to their net
 Consider using more specific security controls to protect your resources:
 
 - **Specific IP Addresses:** Allow only trusted IP addresses instead of an entire CIDR block.
-- **VPC Peering or VPN Connections:** Establish secure connections between your VPC and other trusted networks using VPC peering or VPN connections.
+- **VPC Peering or VPN Connections:** Establish secure connections between your VPC and other trusted networks using Virtual Private Cloud (VPC) peering or VPN connections.
 - **Identity-Based Access Controls:** Implement identity-based controls with IAM roles and permissions to ensure only authorized users and services can access your resources.
 
 ---
